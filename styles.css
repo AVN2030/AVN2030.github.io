@@ -170,44 +170,57 @@ h1 {
 }
 
 #about,
-#certs {
+#experience {
   background: #ffffff;
 }
 
 #about .eyebrow,
-#certs .eyebrow {
+#experience .eyebrow {
   color: var(--accent-ink);
 }
 
-#experience,
-#education {
+#experience h2,
+#experience h3,
+#experience .timeline-date {
+  color: #171510;
+}
+
+#experience .company,
+#experience .timeline-body ul,
+#experience .timeline-body li {
+  color: var(--muted);
+}
+
+#experience .timeline::before {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+#education,
+#certs {
   background: linear-gradient(160deg, #1b3a7a 0%, #0b1e41 100%);
 }
 
-#experience h2,
 #education h2,
-#experience h3,
+#certs h2 {
+  color: #ffffff;
+}
+
 #education h3,
-#experience .timeline-date,
 #education .timeline-date {
   color: #ffffff;
 }
 
-#experience .company,
 #education .company,
-#experience .timeline-body ul,
 #education .timeline-body ul,
-#experience .timeline-body li,
 #education .timeline-body li {
   color: #c9d8f5;
 }
 
-#experience .eyebrow,
-#education .eyebrow {
+#education .eyebrow,
+#certs .eyebrow {
   color: #ffcd05;
 }
 
-#experience .timeline::before,
 #education .timeline::before {
   background: rgba(255, 255, 255, 0.25);
 }
