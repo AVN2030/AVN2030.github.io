@@ -165,46 +165,84 @@ h1 {
   padding: 88px 0;
 }
 
-.float-panel {
-  border-radius: 24px;
-  padding: 48px;
-  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.28);
+.section.alt {
+  background: transparent;
 }
 
-.blue-panel {
+#about,
+#certs {
+  background: #ffffff;
+}
+
+#about .eyebrow,
+#certs .eyebrow {
+  color: var(--accent-ink);
+}
+
+#experience,
+#education {
   background: linear-gradient(160deg, #1b3a7a 0%, #0b1e41 100%);
-  border: 1px solid rgba(255, 255, 255, 0.14);
 }
 
-.blue-panel h2 {
+#experience h2,
+#education h2,
+#experience h3,
+#education h3,
+#experience .timeline-date,
+#education .timeline-date {
   color: #ffffff;
 }
 
-.blue-panel .about-text p {
+#experience .company,
+#education .company,
+#experience .timeline-body ul,
+#education .timeline-body ul,
+#experience .timeline-body li,
+#education .timeline-body li {
   color: #c9d8f5;
 }
 
-.blue-panel .eyebrow {
+#experience .eyebrow,
+#education .eyebrow {
   color: #ffcd05;
 }
 
-.orange-panel {
-  background: linear-gradient(160deg, #ffa53a 0%, #f06f00 100%);
-  border: 1px solid rgba(255, 255, 255, 0.35);
+#experience .timeline::before,
+#education .timeline::before {
+  background: rgba(255, 255, 255, 0.25);
 }
 
-.orange-panel h2,
-.orange-panel .eyebrow {
+#work,
+#languages {
+  background: linear-gradient(160deg, #ffd24d 0%, #f0b429 100%);
+}
+
+#work h2,
+#work h3,
+#languages h2,
+#work .card p strong {
+  color: #171510;
+}
+
+#work .eyebrow,
+#languages .eyebrow {
+  color: #171510;
+}
+
+#skills,
+#contact {
+  background: linear-gradient(160deg, #ff9e1f 0%, #f67f00 100%);
+}
+
+#skills h2,
+#skills .eyebrow,
+#contact h2,
+#contact .eyebrow {
   color: #ffffff;
 }
 
-.orange-panel .cert {
-  background: #ffffff;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.section.alt {
-  background: var(--bg-alt);
+#contact .contact-text {
+  color: #fff7e0;
 }
 
 .grid-2 {
@@ -363,6 +401,7 @@ h2 {
   border-radius: 16px;
   padding: 32px 20px;
   text-align: center;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
 }
 
 .stat-num {
@@ -394,6 +433,7 @@ h2 {
   padding: 14px 18px;
   margin-bottom: 12px;
   font-size: 0.9rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
 
 .skills-grid {
@@ -464,9 +504,5 @@ h2 {
 
   .hero-inner {
     padding-top: 16px;
-  }
-
-  .float-panel {
-    padding: 28px 20px;
   }
 }
