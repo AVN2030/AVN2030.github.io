@@ -165,6 +165,44 @@ h1 {
   padding: 88px 0;
 }
 
+.float-panel {
+  border-radius: 24px;
+  padding: 48px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.28);
+}
+
+.blue-panel {
+  background: linear-gradient(160deg, #1b3a7a 0%, #0b1e41 100%);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.blue-panel h2 {
+  color: #ffffff;
+}
+
+.blue-panel .about-text p {
+  color: #c9d8f5;
+}
+
+.blue-panel .eyebrow {
+  color: #ffcd05;
+}
+
+.orange-panel {
+  background: linear-gradient(160deg, #ffa53a 0%, #f06f00 100%);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.orange-panel h2,
+.orange-panel .eyebrow {
+  color: #ffffff;
+}
+
+.orange-panel .cert {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 .section.alt {
   background: var(--bg-alt);
 }
@@ -426,5 +464,9 @@ h2 {
 
   .hero-inner {
     padding-top: 16px;
+  }
+
+  .float-panel {
+    padding: 28px 20px;
   }
 }
