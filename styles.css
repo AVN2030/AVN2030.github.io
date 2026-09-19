@@ -59,7 +59,7 @@ nav {
 .nav {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   padding-bottom: 72px;
 }
 
@@ -144,6 +144,14 @@ h1 {
   display: block;
   width: 120px;
   height: auto;
+}
+
+.hero-content .qr-wrap {
+  margin-top: 24px;
+}
+
+.hero-content .qr-img {
+  width: 88px;
 }
 
 .contact-links .qr-wrap {
