@@ -59,7 +59,7 @@ nav {
 .nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding-bottom: 72px;
 }
 
@@ -100,7 +100,7 @@ nav {
 }
 
 h1 {
-  font-size: clamp(2.2rem, 5vw, 3.4rem);
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
   line-height: 1.12;
   font-weight: 800;
   letter-spacing: -0.02em;
@@ -123,6 +123,35 @@ h1 {
   display: flex;
   gap: 12px;
   flex-wrap: wrap;
+}
+
+.qr-wrap {
+  display: inline-block;
+  margin-top: 28px;
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 14px;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.25);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.qr-wrap:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.3);
+}
+
+.qr-img {
+  display: block;
+  width: 120px;
+  height: auto;
+}
+
+.contact-links .qr-wrap {
+  margin-top: 0;
+}
+
+.contact-links .qr-img {
+  width: 130px;
 }
 
 .btn {
