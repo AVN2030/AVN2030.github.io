@@ -565,6 +565,24 @@ h2 {
   border-top: 1px solid #2d2d2d;
 }
 
+.footer-tagline {
+  font-size: 1rem;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.footer-sub {
+  font-size: 0.85rem;
+  color: #a6a6a6;
+  margin-bottom: 16px;
+}
+
+.footer-copy {
+  font-size: 0.75rem;
+  color: #777;
+  letter-spacing: 0.04em;
+}
+
 .reveal {
   opacity: 0;
   transform: translateY(18px);
