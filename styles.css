@@ -541,6 +541,14 @@ h2 {
   margin-bottom: 28px;
 }
 
+.contact-skills {
+  color: #fff7e0;
+  font-size: 0.95rem;
+  max-width: 760px;
+  margin-bottom: 28px;
+  line-height: 1.9;
+}
+
 .contact-links {
   display: flex;
   gap: 12px;
