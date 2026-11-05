@@ -60,7 +60,7 @@ nav {
 .hero-inner {
   width: min(1080px, 90%);
   margin: 0 auto;
-  padding: 24px 0 96px;
+  padding: 24px 0 130px;
 }
 
 .nav {
@@ -107,10 +107,10 @@ nav {
 
 .hero-photo {
   position: relative;
-  width: 258px;
-  height: 340px;
+  width: 240px;
+  height: 360px;
   border-radius: 4px 9px 9px 4px;
-  transform: perspective(1400px) rotateY(-14deg) rotateZ(-4deg);
+  transform: perspective(1400px) rotateY(-14deg) rotateZ(-3deg);
   transform-style: preserve-3d;
   background: #fffdf7;
   /* page block on the left, then a soft drop shadow */
@@ -674,8 +674,8 @@ h2 {
   .hero-photo {
     order: -1;
     width: 150px;
-    height: 198px;
-    transform: perspective(1200px) rotateY(-10deg) rotateZ(-3deg);
+    height: 225px;
+    transform: perspective(1200px) rotateY(-10deg) rotateZ(-2deg);
     box-shadow:
       -4px 0 0 0 #fffdf7,
       -6px 0 0 0 #e8dfcf,
