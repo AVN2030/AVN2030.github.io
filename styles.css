@@ -234,6 +234,12 @@ nav {
   margin-bottom: 16px;
 }
 
+/* hero credential line — smaller */
+.hero-content .eyebrow {
+  font-size: 0.66rem;
+  letter-spacing: 0.1em;
+}
+
 h1 {
   font-size: clamp(1.5rem, 3.6vw, 2.4rem);
   line-height: 1.12;
