@@ -182,6 +182,49 @@ nav {
   transform: perspective(1800px) rotateY(-7deg) rotateZ(-1deg) translateY(-6px);
 }
 
+.hero-photo-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+  padding-bottom: 8px;
+}
+
+.book-link {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  transform: translateX(6px);
+  transition: transform 0.3s ease;
+}
+
+.book-link:hover {
+  transform: translateX(6px) translateY(-2px);
+}
+
+.book-title {
+  display: block;
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.book-sub {
+  display: block;
+  margin-top: 4px;
+  font-size: 0.86rem;
+  font-weight: 600;
+  color: #fff3d0;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.book-link:hover .book-sub {
+  color: #ffffff;
+}
+
 .eyebrow {
   color: #ffffff;
   font-size: 0.8rem;
@@ -723,5 +766,19 @@ h2 {
 
   .hero-photo::before {
     width: 9px;
+  }
+
+  .hero-photo-wrap {
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .book-link {
+    transform: none;
+    text-align: left;
+  }
+
+  .book-link:hover {
+    transform: translateY(-2px);
   }
 }
